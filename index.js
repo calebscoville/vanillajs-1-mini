@@ -16,7 +16,7 @@ function reset(){
     element.innerHTML = `<mark>${count}</mark>`
 }
 
-function slectTheme(theme){
+function selectTheme(theme){
     document.getElementsByTagName('body')[0].classname = theme
     document.getElementsByTagName('main')[0].classname = theme
     const buttons = document.getElementsByTagName('button')
